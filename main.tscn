@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bso6748inprgb"]
+
+[ext_resource type="Texture2D" uid="uid://2m7tvckqf74" path="res://Sprites/Plant.png" id="1_h2yge"]
+[ext_resource type="Script" uid="uid://rfkolxaaqsj4" path="res://grid_container.gd" id="2_1bvp3"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Plant-Test" type="Node2D" parent="."]
+position = Vector2(128.636, 110.273)
+
+[node name="Sprite2D" type="Sprite2D" parent="Plant-Test"]
+texture = ExtResource("1_h2yge")
+
+[node name="Grid" type="GridContainer" parent="."]
+offset_left = 20.0
+offset_top = 11.0
+offset_right = 585.0
+offset_bottom = 576.0
+script = ExtResource("2_1bvp3")
+width = 4
+height = 3
+borderSize = 1

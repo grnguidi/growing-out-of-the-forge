@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfq64x3futiv0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b3du4"]
+bg_color = Color(0.788235, 0.4, 0.254902, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.52549, 0.419608, 0.254902, 1)
+border_blend = true
+
+[node name="PanelContainer" type="PanelContainer"]
+custom_minimum_size = Vector2(64, 64)
+theme_override_styles/panel = SubResource("StyleBoxFlat_b3du4")

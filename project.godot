@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="Growing-Out-Of-The-Forge"
+run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Sprites/icon.svg"
