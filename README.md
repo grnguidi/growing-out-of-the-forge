@@ -1,2 +1,2 @@
 # growing-out-of-the-forge
-A godot game based around maneging plants in a blacksmith shop
+A Godot game based around managing plants in a blacksmith shop
